@@ -1,0 +1,85 @@
+<div class="login" ng-controller="loginCtrl">
+    <h2>MyTravel 로그인</h2>
+    <form name="login">
+        <input type="text" class="user active" id="email" name="email" value="Email" onfocus="this.value = '';"
+               onblur="if (this.value == '') {this.value = 'Email';}" ng-required="required" ng-minlength="4" />
+        <input type="password" class="lock active" id="password" name="password"  value="Password" onfocus="this.value = '';"
+               onblur="if (this.value == '') {this.value = 'Password';}" ng-required="required" ng-minlength="4" />
+
+        <div class="forgot">
+            <div class="login-check">
+                <label class="checkbox"><input type="checkbox" name="checkbox" checked><i> </i> Remember Me</label>
+            </div>
+            <div class="login-para">
+                <p><a id="password-reset"> Forgot Password? </a></p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="login-bwn">
+            <!--<input type="submit" id="email-sign-in" value="Log in"/>-->
+            <div class="reg-bwn"><a id="email-sign-in">로그인</a></div>
+        </div>
+    </form>
+    <div class="login-bottom">
+        <!--<h3>Login</h3>-->
+        <!--<p>With your social media account</p>-->
+        <div class="social-icons">
+            <div class="button">
+                </a>
+                <!--<button disabled class="mdl-button mdl-js-button mdl-button&#45;&#45;raised" >Log in with Facebook</button>-->
+                <a class="fa" id="facebook-sign-in"> <i class="anc-fa"> </i> <span>Facebook</span>
+                    <div class="clear"></div>
+                </a>
+                <a class="go" id="google-sign-in"><i class="anc-go"> </i><span>Google+</span>
+                    <div class="clear"></div>
+                </a>
+                <a class="ka" id="kakao-sign-in"> <i class="anc-kakao"> </i><span>Kakao</span>
+                    <div class="clear"></div>
+                <div class="clear"></div>
+                </a>
+            </div>
+            <h4>계정이 없나요? 가입하세요!</h4>
+            <div class="reg-bwn"><a id="email-sign-up">회원가입</a></div>
+        </div>
+    </div>
+</div>
+<!--<div style="text-align:center; margin-top:10px;">-->
+    <!--<ins class="adsbygoogle"-->
+         <!--style="display:block"-->
+         <!--data-ad-client="ca-pub-8011246932591811"-->
+         <!--data-ad-slot="9844648019"-->
+         <!--data-ad-format="auto"></ins>-->
+    <!--<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>-->
+    <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!--</div>-->
+
+<!--<main class="mdl-layout__content mdl-color&#45;&#45;grey-100">-->
+    <!--<div class="mdl-cell mdl-cell&#45;&#45;12-col mdl-cell&#45;&#45;12-col-tablet mdl-grid">-->
+
+        <!--&lt;!&ndash; Container for the Table of content &ndash;&gt;-->
+        <!--<div-->
+            <!--class="mdl-card mdl-shadow&#45;&#45;2dp mdl-cell mdl-cell&#45;&#45;12-col mdl-cell&#45;&#45;12-col-tablet mdl-cell&#45;&#45;12-col-desktop">-->
+            <!--<div class="mdl-card__title mdl-color&#45;&#45;light-blue-600 mdl-color-text&#45;&#45;white">-->
+                <!--<h2 class="mdl-card__title-text">로그인2</h2>-->
+            <!--</div>-->
+            <!--<div class="mdl-card__supporting-text mdl-color-text&#45;&#45;grey-600">-->
+                <!--<ul>-->
+                    <!--<li><a href="partials/auth/anon.html">테스트</a></li>-->
+                    <!--<li><a href="partials/auth/email.html">Email/Password</a></li>-->
+                    <!--<li><a href="partials/auth/customauth.html">Custom Authentication</a> and an Example <a-->
+                        <!--href="exampletokengenerator/auth.html">Custom Token Generator</a><br><br></li>-->
+
+                    <!--<li><a href="partials/auth/google-popup.html">Google Sign In using Popup</a></li>-->
+                    <!--<li><a href="partials/auth/google-redirect.html">Google Sign In using Redirect</a></li>-->
+                    <!--<li><a href="partials/auth/google-credentials.html">Google Sign In using OAuth Credentials (via-->
+                        <!--Google Sign-in Button)</a><br><br></li>-->
+
+                    <!--<li><a href="partials/auth/facebook-popup.html">Facebook Login In using Popup</a></li>-->
+                    <!--<li><a href="partials/auth/facebook-redirect.html">Facebook Login In using Redirect</a></li>-->
+                    <!--<li><a href="partials/auth/facebook-credentials.html">Facebook Login using OAuth Credentials (via-->
+                        <!--Facebook Login Button)</a><br><br></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</main>-->
